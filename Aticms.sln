@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aticms", "Aticms\Aticms.csproj", "{EC73BB0B-3E14-42EF-AB1B-603673608FE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aticms", "Aticms\Aticms.csproj", "{EC73BB0B-3E14-42EF-AB1B-603673608FE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aticms.Html", "Aticms.Html\Aticms.Html.csproj", "{B6849040-97BF-4EE2-AE3A-1E8D9874461F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aticms.Html", "Aticms.Html\Aticms.Html.csproj", "{B6849040-97BF-4EE2-AE3A-1E8D9874461F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aticms.Utils", "Aticms.Utils\Aticms.Utils.csproj", "{8C954B5B-C672-48B3-9AE3-875897AB736C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B6849040-97BF-4EE2-AE3A-1E8D9874461F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6849040-97BF-4EE2-AE3A-1E8D9874461F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6849040-97BF-4EE2-AE3A-1E8D9874461F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C954B5B-C672-48B3-9AE3-875897AB736C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C954B5B-C672-48B3-9AE3-875897AB736C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C954B5B-C672-48B3-9AE3-875897AB736C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C954B5B-C672-48B3-9AE3-875897AB736C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

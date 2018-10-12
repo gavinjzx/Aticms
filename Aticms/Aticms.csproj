@@ -12,4 +12,9 @@
     <Folder Include="Views\Manage\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Aticms.Html\Aticms.Html.csproj" />
+    <ProjectReference Include="..\Aticms.Utils\Aticms.Utils.csproj" />
+  </ItemGroup>
+
 </Project>

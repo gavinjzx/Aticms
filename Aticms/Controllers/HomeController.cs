@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Aticms.Models;
+using Aticms.Utils;
 
 namespace Aticms.Controllers
 {
@@ -24,7 +25,7 @@ namespace Aticms.Controllers
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Your contact page."+appSetting.GetConfig("connectionStrings:connectionString");
 
             return View();
         }
